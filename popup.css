@@ -1,0 +1,91 @@
+html,
+body {
+    width: 400px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    margin: 2px 2px 0.5px 2px;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #09b4e0;
+    font-weight: bold;
+}
+
+.bg-dark {
+    background: #383838 !important;
+}
+
+.bg-theme {
+    background: #09b4e0 !important;
+}
+
+a {
+    color: #383838;
+}
+
+a:hover {
+    color: #09b4e0;
+}
+
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.xvg_change {
+    border-radius: 6px;
+    color: white;
+}
+
+.list-group {
+    border-radius: 0px;
+    margin: 2px;
+}
+
+.list-group-item:focus,
+.list-group-item:hover {
+    cursor: default;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #383838;
+    border-color: #383838;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #09b4e0;
+    border-color: #09b4e0;
+}
+
+.bg-red {
+    background: #dd3645 !important;
+}
+
+.bg-green {
+    background: #58bf01 !important;
+}
+
+.xvg_price {
+    font-weight: 700;
+}
+
+.navbar-brand:focus,
+.navbar-brand:active {
+    border: 0px;
+    outline: none;
+}
+
+.list-group-item-action.active {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.exchange-item:hover {
+    background: #383838;
+    color: white !important;
+    cursor: pointer;
+}

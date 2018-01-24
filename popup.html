@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XVG Price Ticker</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="icon_128.png" width="30" height="30" class="d-inline-block align-top" alt=""> Verge (XVG) Price Ticker
+            </a>
+        </nav>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" id="usdPill" href="#">
+                    <i class="fa fa-usd"></i> USD</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="eurPill" href="#">
+                    <i class="fa fa-euro" aria-hidden="true"></i>
+                    </i> EUR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="btcPill" href="#">
+                    <i class="fa fa-btc" aria-hidden="true"></i>
+                    BTC</a>
+            </li>
+        </ul>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">
+                        <img src="icon_128.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">Verge (XVG)</h5>
+                    <small>
+                        <span class="xvg_time field">
+                            <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span> via
+                        <span class="xvg_place field">
+                            <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </small>
+                </div>
+                <p class="mb-1 ml-4">
+                    <span class="xvg_price field">
+                        <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                    </span>
+                    <span class="xvg_change bg-dark p-1 field ml-2">
+                        <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div>
+            <a href="https://chaseohlson.com/how-to-buy-verge" target="_blank" class="btn btn-primary m-1">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+                How to Buy Verge</a>
+            <a href="#" id="refresh" class="btn btn-primary m-1 float-right">
+                <i class="fa fa-refresh" aria-hidden="true"></i> Refresh</a>
+        </div>
+        <div class="list-group text-center">
+            <a href="#" class="list-group-item list-group-item-action active bg-theme">
+                Verge Exchanges
+            </a>
+            <a target="_blank" href="https://coinlookup.co/out/binance" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> Binance</a>
+            <a target="_blank" href="https://bittrex.com/" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> Bittrex</a>
+            <a target="_blank" href="https://coinlookup.co/out/cryptopia" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> Cryptopia</a>
+            <a target="_blank" href="https://crypto-bridge.org/" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> Crypto Bridge</a>
+            <a target="_blank" href="https://hitbtc.com/" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> HitBTC</a>
+            <a target="_blank" href="https://yobit.net/" class="list-group-item list-group-item-action exchange-item">
+                <i class="fa fa-external-link" aria-hidden="true"></i> YoBit</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+
+</html>
